@@ -2,7 +2,7 @@
 
 ## Usage 
     $ javac UnionFind.java
-    $ java UnionFind
+    $ java UnionFind input.txt
 
 ## Feature
 - union: connect two objects
