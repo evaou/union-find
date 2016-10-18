@@ -134,7 +134,13 @@ public class UnionFind {
     }
     
     public static void main(String[] args) {
-        String fileName = "input.txt";
+        if (args.length < 1) {
+            System.out.println("Please specify input file.");
+            System.exit(0);
+        }
+
+        String fileName = args[0];
+
         UnionFind uf = new UnionFind();
 
         uf.getFile(fileName);
